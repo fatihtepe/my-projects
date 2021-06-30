@@ -71,3 +71,5 @@ When sending request, the client can send data with using different http methods
 
     - has no length limitation.
 
+[HTTP STATUS CODES](https://www.steveschoger.com/status-code-poster/)
+![HTTP STATUS CODES](HTTP-status-codes.png)
