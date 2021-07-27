@@ -69,3 +69,11 @@ aws ec2 describe-instances --filters "Name=tag:Name,Values=roman_numbers"
 ```
 aws ec2 describe-instances --filters "Name=tag:Name,Values=roman_numbers" --query 'Reservations[].Instances[].InstanceId[]'
 ```
+
+```
+aws ec2 terminate-instances --instance-ids i-0b23ecb2a5039eae2
+```
+
+```
+aws ec2 delete-security-group --group-name roman_numbers_sec_grp
+```
