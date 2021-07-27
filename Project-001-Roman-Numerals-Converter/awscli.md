@@ -62,3 +62,10 @@ aws ec2 run-instances \
     --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=roman_numbers}]' \
     --user-data file:///home/ec2-user/userdata.sh
 ```
+```
+aws ec2 describe-instances --filters "Name=tag:Name,Values=roman_numbers"
+```
+
+```
+aws ec2 describe-instances --filters "Name=tag:Name,Values=roman_numbers" --query 'Reservations[].Instances[].InstanceId[]'
+```
