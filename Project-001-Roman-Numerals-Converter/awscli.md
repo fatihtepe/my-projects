@@ -39,3 +39,15 @@ aws ssm get-parameters --names /aws/service/ami-amazon-linux-latest/amzn2-ami-hv
 ```
 LATEST_AMI=ami-0dc2d3e4c0f9ebd18
 ```
+
+```
+#! /bin/bash
+yum update -y
+yum install python3 -y
+pip3 install flask
+cd /home/ec2-user
+wget -P templates https://raw.githubusercontent.com/vnczalt-17/aws-projects/main/Project-001-Roman-Numerals-Converter/templates/index.html
+wget -P templates https://raw.githubusercontent.com/vnczalt-17/aws-projects/main/Project-001-Roman-Numerals-Converter/templates/result.html
+wget https://raw.githubusercontent.com/vnczalt-17/aws-projects/main/Project-001-Roman-Numerals-Converter/app.py
+python3 app.py
+```
