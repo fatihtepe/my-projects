@@ -111,7 +111,8 @@ Followings are some of features of Flask Framework;
 
 - Push all files to your remote repo on GitHub.
 
-## [Part 4 - Run the Hello World App on EC2 Instance](./steps)
+## [Part 4 - Run the Hello World App on EC2 Instance](./steps.md)
+
 
 - Launch an Amazon EC2 instance using the Amazon Linux 2 AMI with security group allowing SSH (Port 22) and HTTP (Port 80) connections.
 
