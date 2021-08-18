@@ -1,4 +1,24 @@
-# Creating First Flask Application - Hello World and basic usage of Jinja Templates
+# Flask-01-02 : Creating First Flask Application - Hello World and basic usage of Jinja Templates
+
+Purpose of the this project is to have a quick introductory knowledge of how to create a Flask web application on local.
+
+## Learning Outcomes
+
+At the end of the this project, we will be able to;
+
+- understand client-server software architecture.
+
+- get familiar with Python Flask framework.
+
+- install Python and Flask framework on local
+
+- build a simple web application with Python Flask framework.
+
+- use git repo to manage the application versioning.
+
+- run the web application on AWS EC2 instance using the GitHub repo as codebase.
+
+## Outline
 
 - Part 1 - Getting to know the Python Flask framework
 
@@ -30,6 +50,23 @@ Followings are some of features of Flask Framework;
 
 ## Part 2 - Write a Simple Hello World Web Application on GitHub Repo
 
+- Create folder named `flask-01-02-hello-world-app-Jinja-Template` within your repo under `python/hands-on` folder and go under it.
+
+- Create folder named `flask-01-hello-world-app`
+
+- Create python file named `hello-world-app.py`
+
+- Import Flask module.
+
+- Create an object named `app` from imported Flask module.
+
+- Create a function `hello` which returns a string `Hello World`.
+
+- Assign a URL route the `hello` function with decorator `@app.route('/')`.
+
+- Create a function `second` which returns a string `This is the second page` and assign a URL route the `second` function with decorator `@app.route('/second')`.
+
+- Create a function `third` which returns a string `This is the subpage of third page` and assign a URL route the `third` function with decorator `@app.route('/third/subthird')`.
 
 - Create a dynamic url which takes id number dynamically and return with a massage which show id of page.
 
@@ -39,12 +76,30 @@ Followings are some of features of Flask Framework;
 
 - to reach application from anywhere on port 80, change debug mode
 
+- Save the complete code as `hello-world-app.py` file under `hands-on/flask-01-02-hello-world-app-Jinja-Template/flask-01-hello-world-app` folder.
+
 - Add and commit all changes on local repo
 
 - Push `hello-world-app.py` to your remote repo
 
 
 ## Part 3 - Write a Simple Hello World Web Application with Jinja template on GitHub Repo
+
+- Create folder named `flask-02-Jinja_Template` within your repo under `python/hands-on` and go under it
+
+- Create python file named `jinja.py`
+
+- Import Flask and render_template modules.
+
+- Create an object named `app` from imported Flask module.
+
+- Create an `index.html` file under templates folder.
+
+- Create a function named `head` which sents number `number1` and `number2` variables to the `index.html`. Use these variables into the `index.html` file. Assign a URL route the `head` function with decorator `@app.route('/')`.
+
+- Create an `body.html` file under templates folder.
+
+- Create a function named `number` which sends number `num1` and `num2` and sum of them to the `index.html`. Use these variables into the `body.html` file. Assign a URL route the `number` function with decorator `@app.route('/sum')`.
 
 - run the application in debug mode
 
@@ -56,7 +111,7 @@ Followings are some of features of Flask Framework;
 
 - Push all files to your remote repo on GitHub.
 
-## Part 4 - Run the Hello World App on EC2 Instance
+## [Part 4 - Run the Hello World App on EC2 Instance](./steps)
 
 - Launch an Amazon EC2 instance using the Amazon Linux 2 AMI with security group allowing SSH (Port 22) and HTTP (Port 80) connections.
 
