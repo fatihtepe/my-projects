@@ -25,7 +25,7 @@
     8  ls
     9  sudo python3 hello-world-app.py
 ```
-![hello-world-app.py](./1.png)
+![hello-world-app.py](./img/1.png)
 
 ```
    10  mkdir templates
@@ -38,4 +38,4 @@
    17  sudo python3 jinja.py
    18  history > project12.txt
 ```
-![jinja.py](./2.png)
+![jinja.py](./img/2.png)

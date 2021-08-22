@@ -30,7 +30,7 @@ At the end of the this project, we will be able to;
 
 ## Part 1 - Getting to know the Python Flask framework
 
-![Flask](./flask.png)
+![Flask](./img/flask.png)
 
 Flask is a web application development framework written in Python. It is a micro-framework that provides only the essential components which makes it easier to begin with when compared to full-stack frameworks like Django which has boilerplate code and dependencies.
 And yet, Flask provides libraries, tools, and modules to develop web applications with additional features like authentication, database ORM, etc.
