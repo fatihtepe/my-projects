@@ -34,7 +34,7 @@ At the end of this project, we will be able to;
 
 HTTP (Hypertext Transfer Protocol) is a request-response protocol. A client on one side (web browser) asks or requests something from a server and the server on the other side sends a response to that client. When we open our browser and write down the URL (Uniform Resource Locator), we are requesting a resource from a server and the URL is the address of that resource. The structure of typical URL is as the following.
 
-![URL anatomy](./url-structure.png)
+![URL anatomy](./img/url-structure.png)
 
 The server responds to that request with an HTTP response message. Within the response, a status code element is a 3-digit integer defines the category of response as shown below.
 
@@ -129,7 +129,7 @@ The server responds to that request with an HTTP response message. Within the re
 
 - Push folders to remote repo `my-repository` on GitHub.
 
-## Part 4 - Install Python and Flask framework Amazon Linux 2 EC2 Instance and Run the Hello World App on EC2 Instance
+## [Part 4 - Install Python and Flask framework Amazon Linux 2 EC2 Instance and Run the Hello World App on EC2 Instance](./steps.md)
 
 - Launch an Amazon EC2 instance using the Amazon Linux 2 AMI with security group allowing SSH (Port 22) and HTTP (Port 80) connections.
 
