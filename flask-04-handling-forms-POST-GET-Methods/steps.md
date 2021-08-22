@@ -19,6 +19,7 @@
 - Run the Flask application
 
 ```
+ssh -i aws.pem ec2-user@3.86.85.4
     1  clear
     2  sudo yum update -y
     3  python3 --version
