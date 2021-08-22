@@ -2,7 +2,7 @@
 
 Purpose of the this project is to understand introductory knowledge of how to handle forms.
 
-![HTTP Methods in Flask](./http-methods-flask.png)
+![HTTP Methods in Flask](./img/http-methods-flask.png)
 
 ## Outcomes
 
@@ -35,14 +35,14 @@ In this project, we will;
 ## Part 1 - Getting to know HTTP methods (GET & POST)
 
 
-HTTP (Hypertext Transfer Protocol) is a request-response protocol. A client on one side (web browser) asks or requests something from a server and the server on the other side sends a response to that client. 
+HTTP (Hypertext Transfer Protocol) is a request-response protocol. A client on one side (web browser) asks or requests something from a server and the server on the other side sends a response to that client.
 
 When sending request, the client can send data with using different http methods like `GET, POST, PUT, HEAD, DELETE, PATCH, OPTIONS`, but the most common ones are `GET` and `POST`.
 
-![Get and Post Requests](./get-post-request.jpg)
+![Get and Post Requests](./img/get-post-request.jpg)
 
 - HTTP `GET` method request;
-    
+
     - used to request data from a specified resource.
 
     - can be cached.
@@ -55,12 +55,12 @@ When sending request, the client can send data with using different http methods
 
     - has length limitation.
 
-    - only used to request data, not to modify it. 
+    - only used to request data, not to modify it.
 
-    ![url-structure of GET method](./url-structure.png) 
+    ![url-structure of GET method](./img/url-structure.png)
 
 - HTTP `POST` method request;
-    
+
     - never cached.
 
     - does not remain in the browser history.
@@ -71,5 +71,117 @@ When sending request, the client can send data with using different http methods
 
     - has no length limitation.
 
+## Part 2 - Learn to use GET and POST HTTP Method - 1
+
+- Create folder named `flask-04-handling-forms-POST-GET-Methods` within `python/hands-on` folder
+
+- Create folder named `Flask_GET_POST_Methods_1` within `flask-04-handling-forms-POST-GET-Methods` folder
+
+- Create file named `app.py`  and `templates` folder within `Flask_GET_POST_Methods_1` folder
+
+
+```python
+# Import Flask modules
+
+# Create an object named app
+
+# Create a function named `index` which uses template file named `index.html`
+# send three numbers as template variable to the app.py and assign route of no path ('/')
+
+
+# calculate sum of them using inline function in app.py, then sent the result to the
+# "number.hmtl" file and assign route of path ('/total').
+# When the user comes directly "/total" path, "Since this is GET
+# request, Total hasn't been calculated" string returns to them with "number.html" file
+
+
+# Add a statement to run the Flask application which can be debugged.
+
+```
+
+## Part 3 - Learn to use GET and POST HTTP Method - 2
+
+
+- Create folder named `Flask_GET_POST_Methods_2` within `flask-04-handling-forms-POST-GET-Methods` folder
+
+- Create file named `app.py`  and `templates` folder within `Flask_GET_POST_Methods_2` folder
+
+
+```python
+# Import Flask modules
+
+
+# Create an object named app
+
+
+# create a function named "lcm" which calculates a least common multiple values of two numbers.
+
+
+# Create a function named `index` which uses template file named `index.html`
+# send two numbers as template variable to the app.py and assign route of no path ('/')
+
+
+# calculate sum of them using "lcm" function, then sent the result to the
+# "result.hmtl" file and assign route of path ('/calc').
+# When the user comes directly "/calc" path, "Since this is a GET request, LCM has not been calculated" string returns to them with "result.html" file
+
+
+# Add a statement to run the Flask application which can be debugged.
+
+```
+
+
+## Part 4 - Write a Sample Web Application with forms and push to GitHub Repo
+
+- Create folder named `flask-04-handling-forms` within `flask-04-handling-forms-POST-GET-Methods` folder
+
+- Write an application with form handling and save the complete code as `app-form-handling.py` under `hands-on/flask-04-handling-forms` folder.
+
+```python
+# Import Flask modules
+
+
+# Create an object named app
+
+
+# Create a function named `home` which uses template file named `main.html` given under `templates` folder,
+# send your name as template variable, and assign route of no path ('/')
+
+
+# Write a function named `greet` which uses template file named `greet.html` given under `templates` folder. it takes parameters from query string on URL, assign that parameter to the 'user' variable and sent that user name into the html file. If it doesn't have any parameter, warning massage is raised
+
+
+# Write a function named `login` which uses `GET` and `POST` methods,
+# and template files named `login.html` and `secure.html` given under `templates` folder
+# and assign to the static route of ('login'). It controls If password is clarusway or not
+
+
+# Add a statement to run the Flask application which can be reached from any host on port 80.
+
+# app.run(host='0.0.0.0', port=80)
+```
+
+
+## Part 5 - Install Python and Flask framework on Amazon Linux 2 EC2 Instance
+
+- Launch an Amazon EC2 instance using the Amazon Linux 2 AMI with security group allowing SSH (Port 22) and HTTP (Port 80) connections.
+
+- Connect to your instance with SSH.
+
+- Update the installed packages and package cache on your instance.
+
+- Install `Python 3` packages.
+
+- Check the python3 version
+
+- Install `Python 3 Flask` framework.
+
+- Check the versions of Flask framework packages
+
+- Pull the files from github repo
+
+- Run the Flask application
+
+
 [HTTP STATUS CODES](https://www.steveschoger.com/status-code-poster/)
-![HTTP STATUS CODES](HTTP-status-codes.png)
+![HTTP STATUS CODES](./img/HTTP-status-codes.png)
