@@ -4,7 +4,7 @@ from flaskext.mysql import MySQL
 # Create an object named app
 app = Flask(__name__)
 # Configure mysql database
-app.config['MYSQL_DATABASE_HOST'] = 'database-81.cwinayf9bpxf.us-east-1.rds.amazonaws.com'
+app.config['MYSQL_DATABASE_HOST'] = 'database-08.cwinayf9bpxf.us-east-1.rds.amazonaws.com'
 app.config['MYSQL_DATABASE_USER'] = 'admin'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'Clarusway_1'
 app.config['MYSQL_DATABASE_DB'] = 'clarusway'
@@ -26,8 +26,8 @@ CREATE TABLE users (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 """
 data = """
-INSERT INTO clarusway.users 
-VALUES 
+INSERT INTO clarusway.users
+VALUES
     ("Hamid", "hamid@bmw.com"),
     ("Tugce", "tugce@mercedes.com"),
 	("Anil", "anil@porche.com");
