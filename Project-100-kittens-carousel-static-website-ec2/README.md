@@ -67,7 +67,7 @@ Kittens Carousel is a static website application deployed with Apache Web Server
 
 - Git & Github for Version Control System
 
-### At the end of the project, students will be able to;
+### At the end of the project, you will be able to;
 
 - install Apache Web Server on Amazon Linux 2.
 
