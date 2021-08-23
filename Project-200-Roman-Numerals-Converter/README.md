@@ -162,13 +162,21 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 
 - Step 6: Deploy your application on AWS Cloud using Cloudformation template to showcase your app within your team.
 
-- Step 7: Deploy your application on AWS Cloud using AWS Cli to showcase your app within your team.
+- Step 7: Deploy your application on AWS Cloud using `AWS Cli`
 
+```
+aws cloudformation deploy --template-file test.yml --stack-name romannumber
+```
+```
+aws cloudformation delete-stack --stack-name romannumber
+```
 ## Notes
 
 - Use the template formatting library `jinja` within Flask framework to leverage from given templates.
 
 - Use given html templates to warn user with invalid inputs
+![Project 200 invalid entry](./Project_200_invalidentry.png)
+![Project 200 valid entry](./Project_200-final.png)
 
 ## Resources
 
@@ -179,3 +187,4 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 - [AWS Cloudformation User Guide](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
 
 - [AWS Cli User Guide](https://docs.aws.amazon.com/cli/latest/)
+
