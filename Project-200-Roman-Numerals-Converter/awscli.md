@@ -72,7 +72,7 @@ aws ec2 run-instances \
     --key-name aws \
     --security-groups roman_numbers_sec_grp \
     --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=roman_numbers}]' \
-    --user-data file:///Users/tepe/GitHub/my-projects/Project-001-Roman-Numerals-Converter/userdata.sh
+    --user-data file:///Users/tepe/GitHub/my-projects/Project-200-Roman-Numerals-Converter/userdata.sh
 ```
 
 `To see the each instances Ip we'll use describe instance CLI command`
