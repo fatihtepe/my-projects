@@ -30,8 +30,8 @@ This project aims to create a phonebook application in Python and deployed as a 
 Input in username field          Format to convert
 --------------                   -----------------
 ''                               Warning -> 'Invalid input: Name can not be empty'
-callahan                         Callahan
-joHn doE                         John Doe
+fatih TEpe                       Fatih Tepe
+joHn kInG                        John King
 62267                            Warning -> 'Invalid input: Name of person should be text'
 
 Input in number field            Format to convert
