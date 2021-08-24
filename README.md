@@ -19,4 +19,3 @@
 - [Project-400 : Sample Portfolio Static Website deployed on AWS Cloudfront, S3 and Route 53 using Cloudformation](./Project-400-Sample-Portfolio-static-web-s3-cf/README.md)
 
 - [Project-500 : Project Blog Page App (Django) on AWS Environment](./Project-500-Capstone-Project-Blog-Page-App-(Django)-on-AWS-Environment/README.md)
-)
