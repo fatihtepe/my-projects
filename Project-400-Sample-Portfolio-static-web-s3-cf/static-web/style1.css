@@ -1,0 +1,48 @@
+/*Global Style */
+
+* {
+    margin: 15;
+    padding: 20;
+  }
+  .container {
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+  }
+  
+  /*Header Style*/
+  header {
+    margin: 20px;;
+    padding: 25px 0px;
+    color: #ffffff;
+    background-color: #252d30;
+    border-bottom:#a99995 3px solid;
+  }
+  #fatih{
+    color:#F0FFFF;
+  }
+  header h1 {
+    float:left;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  header nav {
+    float: right;
+    padding-top: 10px;
+  }
+  li  {
+    display:inline;
+    padding-right: 25px;
+  }
+  li a {
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .current a{
+    color:#a0a5c1;
+  }
+  a:hover{
+    color:#5c4a45;
+  }
+  

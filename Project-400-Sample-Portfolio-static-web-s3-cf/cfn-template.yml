@@ -1,0 +1,92 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: |
+  Cloudformation Template for Portfolio  website deploy on s3 through cloudfront and route 53
+
+Parameters:
+  DomainName:
+    Description: DNS Name of existing Amazon Route 53 hosted zone ex. ftepe.com
+    Type: AWS::Route53::HostedZone::Id
+  TepeDomainName:
+    Description: Full domain name for the App. ex. www.ftepe.com
+    Type: String
+    AllowedPattern: (?!-)[a-zA-Z0-9-.]{1,63}(?<!-)
+
+Resources:
+  TepeBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead
+      BucketName: !Ref TepeDomainName
+      WebsiteConfiguration:
+        IndexDocument: index.html
+  TepeBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref TepeBucket
+      PolicyDocument:
+        Statement:
+          - Sid: PublicReadforStaticWebsite
+            Effect: Allow
+            Principal: '*'
+            Action: s3:GetObject
+            Resource: !Join ['', ['arn:aws:s3:::', !Ref 'TepeBucket', /*]]
+  TepeCertificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      CertificateTransparencyLoggingPreference: ENABLED
+      DomainName: !Ref TepeDomainName
+      DomainValidationOptions:
+        - DomainName: !Ref TepeDomainName
+          HostedZoneId: !Ref DomainName
+      ValidationMethod: DNS
+  TepeRecordSet:
+    Type: AWS::Route53::RecordSetGroup
+    Properties:
+      HostedZoneId: !Ref DomainName
+      RecordSets:
+        - Name: !Ref TepeDomainName
+          Type: A
+          AliasTarget:
+            DNSName: !GetAtt TepeCloudfront.DomainName
+            HostedZoneId: Z2FDTNDATAQYW2
+  TepeCloudfront:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Aliases:
+        - !Ref TepeDomainName
+        Comment: Cloudfront Distribution pointing to ftepe S3 bucket
+        DefaultCacheBehavior:
+          AllowedMethods:
+            - GET
+            - HEAD
+          Compress: true
+          ForwardedValues:
+            QueryString: true
+            Cookies:
+              Forward: none
+          TargetOriginId: TepeOrigin
+          ViewerProtocolPolicy: allow-all
+        DefaultRootObject: index.html
+        Enabled: true
+        HttpVersion: 'http2'
+        Origins:
+        - DomainName: !Select [2, !Split ["/", !GetAtt TepeBucket.WebsiteURL]]
+          Id: TepeOrigin
+          CustomOriginConfig:
+            OriginProtocolPolicy: http-only
+        PriceClass: PriceClass_All
+        ViewerCertificate:
+          AcmCertificateArn: !Ref TepeCertificate
+          SslSupportMethod: sni-only
+
+Outputs:
+  BucketName:
+    Description: S3 Bucket URL for Fatih Tepe Website
+    Value: !GetAtt TepeBucket.WebsiteURL
+  CloudfrontEndpoint:
+    Description: Endpoint for Kittens Cloudfront
+    Value: !GetAtt TepeCloudfront.DomainName
+  FullDomainName:
+    Description: Full Domain Name of my Application
+    Value: !Ref TepeRecordSet
