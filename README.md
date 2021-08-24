@@ -16,7 +16,7 @@
 
 - [Project-300 : Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using AWS Cloudformation](./Project-300-Phonebook-Application/README.md)
 
-- [Project-400 : Kittens Carousel Static Website deployed on AWS Cloudfront, S3 and Route 53 using Cloudformation](./Project-400-kittens-carousel-static-web-s3-cf/README.md)
+- [Project-400 : Sample Portfolio Static Website deployed on AWS Cloudfront, S3 and Route 53 using Cloudformation](./Project-400-Sample-Portfolio-static-web-s3-cf/README.md)
 
 - [Project-500 : Capstone Project Blog Page App (Django) on AWS Environment](./Project-500-Capstone-Project-Blog-Page-App-(Django)-on-AWS-Environment/README.md)
 )
