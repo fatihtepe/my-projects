@@ -1,4 +1,4 @@
-# Project-400 : Portfolio Static Website deployed on AWS Cloudfront, S3 and Route 53 using Cloudformation
+# [Project-400 : Portfolio Static Website deployed on AWS Cloudfront, S3 and Route 53 using Cloudformation](../README.md)
 
 ## Description
 
@@ -6,7 +6,7 @@ This is a static website application deployed on AWS Simple Storage Service (S3)
 
 ## Problem Statement
 
-![Project_006](Project_006.png)
+![Project_400](Project_400.png)
 
 - This is a web application project that will serve sample portfolio website. As a first step of the project, you have deployed the app on EC2 instance and showed that design is good and working, thus you can go to next step. Developers in your team have prepared portfolio website and pushed necessary files for the project to the repository on Github.
 
@@ -101,7 +101,7 @@ This is a static website application deployed on AWS Simple Storage Service (S3)
 
 - Git & Github for Version Control System
 
-### At the end of the project, students will be able to;
+### At the end of the project, we will be able to;
 
 - demonstrate bash scripting skills using AWS CLI to upload the application files to S3 bucket.
 
