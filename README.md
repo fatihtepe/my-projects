@@ -1,4 +1,4 @@
-# MY PROJECTS (AWS - DEVOPS)
+# PROJECTS' README FILES
 
 - [Flask-01-02 : Creating First Flask Application - Hello World](./flask-01-02-hello-world-app-Jinja-Template/README.md)
 
@@ -18,4 +18,4 @@
 
 - [Project-400 : Sample Portfolio Static Website deployed on AWS Cloudfront, S3 and Route 53 using Cloudformation](./Project-400-Sample-Portfolio-static-web-s3-cf/README.md)
 
-- [Project-500 : Project Blog Page App (Django) on AWS Environment](./Project-500-Capstone-Project-Blog-Page-App-(Django)-on-AWS-Environment/README.md)
+- [Project-500 :Capstone Project Blog Page App (Django) on AWS Environment](./Project-500-Capstone-Project-Blog-Page-App-(Django)-on-AWS-Environment/README.md)
