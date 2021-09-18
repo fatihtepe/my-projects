@@ -1,4 +1,4 @@
-# [PrejectZ-Flask: Creating First Flask Application - Hello World and basic usage of Jinja Templates](../README.md)
+# [ProjectA-Flask-01-02: Creating First Flask Application - Hello World and basic usage of Jinja Templates](../README.md)
 
 Purpose of the this project is to have a quick introductory knowledge of how to create a Flask web application on local.
 

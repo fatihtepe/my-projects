@@ -1,4 +1,4 @@
-# Project- 600 : Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using Terraform
+# ProjectK-002: Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using Terraform
 
 ## Description
 
@@ -6,7 +6,7 @@ The Phonebook Application aims to create a phonebook application in Python and d
 
 ## Problem Statement
 
-![Project_600](tf-phonebook.png)
+![Project_002](tf-phonebook.png)
 
 - Your company has recently started a project that aims to serve as phonebook web application. You and your colleagues have started to work on the project. Your teammates have developed the UI part the project as shown in the template folder and develop the coding part and they need your help to deploying the app in development environment.
 
@@ -66,7 +66,7 @@ thousand                         Warning -> 'Invalid input: Phone number should 
 
 - Lastly, after transforming your code into web application, you are requested to push your program to the project repository on the Github and deploy your solution in the development environment on AWS Cloud using Terraform to showcase your project. In the development environment, you can configure your Terraform file using the followings,
 
-![Project_202](Security-Groups.png)
+![Project_002](Security-Groups.png)
 
   - The application should be created with new AWS resources.
 

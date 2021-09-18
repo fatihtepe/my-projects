@@ -1,23 +1,23 @@
 # PROJECTS' README FILES
 
-- [ProjectZ-Flask: Creating First Flask Application - Hello World](./ProjectZ-flask-hello-world-app-Jinja-Template/README.md)
+- [ProjectA-Flask-01-02: Creating First Flask Application - Hello World](./ProjectA-flask-hello-world-app-Jinja-Template/README.md)
 
-- [ProjectY-Flask: Handling Routes and Templates with Flask Web Application and If and For Structure](./ProjectY-flask-handling-routes-and-if-for/README.md)
+- [ProjectB-Flask-03: Handling Routes and Templates with Flask Web Application and If and For Structure](./ProjectB-flask-handling-routes-and-if-for/README.md)
 
-- [Flask-04    : Using Get-Post Methods](./flask-04-handling-forms-POST-GET-Methods/README.md)
+- [ProjectC-Flask-04: Using Get-Post Methods](./ProjectC-flask-handling-forms-POST-GET-Methods/README.md)
 
-- [Flask-05    : Handling SQL with Flask Web Application](./flask-05-Handling-SQL-with-Flask-Web-Application/README.md)
+- [ProjectD-Flask-05: Handling SQL with Flask Web Application](./ProjectD-flask-Handling-SQL-with-Flask-Web-Application/README.md)
 
 
 
-- [Project-100 : Kittens Carousel Static Website deployed on AWS EC2 using Cloudformation](./Project-100-kittens-carousel-static-website-ec2/README.md)
+- [ProjectE-100 : Kittens Carousel Static Website deployed on AWS EC2 using Cloudformation](./ProjectE-100-kittens-carousel-static-website-ec2/README.md)
 
-- [Project-200 : Roman Numerals Converter Application (Python Flask) deployed on AWS EC2 with Cloudformation](./Project-200-Roman-Numerals-Converter/README.md)
+- [ProjectF-200 : Roman Numerals Converter Application (Python Flask) deployed on AWS EC2 with Cloudformation](./ProjectF-200-Roman-Numerals-Converter/README.md)
 
-- [Project-300 : Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using AWS Cloudformation](./Project-300-Phonebook-Application/README.md)
+- [ProjectG-300 : Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using AWS Cloudformation](./ProjectG-300-Phonebook-Application/README.md)
 
-- [Project-400 : Sample Portfolio Static Website deployed on AWS Cloudfront, S3 and Route 53 using Cloudformation](./Project-400-Sample-Portfolio-static-web-s3-cf/README.md)
+- [ProjectH-400 : Sample Portfolio Static Website deployed on AWS Cloudfront, S3 and Route 53 using Cloudformation](./ProjectH-400-Sample-Portfolio-static-web-s3-cf/README.md)
 
-- [Project-500 :Capstone Project Blog Page App (Django) on AWS Environment](./Project-500-Capstone-Project-Blog-Page-App-(Django)-on-AWS-Environment/README.md)
+- [ProjectI-500 :Capstone Project Blog Page App (Django) on AWS Environment](./ProjectI-500-Capstone-Project-Blog-Page-App-(Django)-on-AWS-Environment/README.md)
 
-- [Project-600 : Terraform Phonebook Application](./Project-600-Terraform-Phonebook-Application-deployed-on-AWS/README.md)
+- [ProjectK-002: Terraform Phonebook Application](./ProjectK-002-Terraform-Phonebook-Application-deployed-on-AWS/README.md)
