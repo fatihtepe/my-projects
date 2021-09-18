@@ -1,6 +1,6 @@
 # PROJECTS' README FILES
 
-- [Flask-01-02 : Creating First Flask Application - Hello World](./flask-01-02-hello-world-app-Jinja-Template/README.md)
+- [ProjectZ-Flask: Creating First Flask Application - Hello World](./ProjectZ-flask-hello-world-app-Jinja-Template/README.md)
 
 - [Flask-03    : Handling Routes and Templates with Flask Web Application and If and For Structure](./flask-03-handling-routes-and-if-for/README.md)
 
