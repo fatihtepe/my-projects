@@ -6,7 +6,7 @@
 
 - [ProjectX-Flask-04: Using Get-Post Methods](./ProjectX-flask-handling-forms-POST-GET-Methods/README.md)
 
-- [ProjectD-Flask-05: Handling SQL with Flask Web Application](./ProjectD-flask-Handling-SQL-with-Flask-Web-Application/README.md)
+- [ProjectW-Flask-05: Handling SQL with Flask Web Application](./ProjectW-flask-Handling-SQL-with-Flask-Web-Application/README.md)
 
 
 
