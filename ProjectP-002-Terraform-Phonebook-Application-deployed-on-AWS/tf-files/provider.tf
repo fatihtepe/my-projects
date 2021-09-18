@@ -17,6 +17,6 @@ provider "aws" {
 }
 
 provider "github" {
-  token = "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"
+  token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   # Configuration options
 }
