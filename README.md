@@ -2,7 +2,7 @@
 
 - [ProjectZ-Flask: Creating First Flask Application - Hello World](./ProjectZ-flask-hello-world-app-Jinja-Template/README.md)
 
-- [Flask-03    : Handling Routes and Templates with Flask Web Application and If and For Structure](./flask-03-handling-routes-and-if-for/README.md)
+- [ProjectY-Flask: Handling Routes and Templates with Flask Web Application and If and For Structure](./ProjectY-flask-handling-routes-and-if-for/README.md)
 
 - [Flask-04    : Using Get-Post Methods](./flask-04-handling-forms-POST-GET-Methods/README.md)
 
