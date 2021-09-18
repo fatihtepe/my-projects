@@ -16,6 +16,6 @@
 
 - [ProjectS-400 : Sample Portfolio Static Website deployed on AWS Cloudfront, S3 and Route 53 using Cloudformation](./ProjectS-400-Sample-Portfolio-static-web-s3-cf/README.md)
 
-- [ProjectI-500 :Capstone Project Blog Page App (Django) on AWS Environment](./ProjectI-500-Capstone-Project-Blog-Page-App-(Django)-on-AWS-Environment/README.md)
+- [ProjectR-500 :Capstone Project Blog Page App (Django) on AWS Environment](./ProjectR-500-Capstone-Project-Blog-Page-App-(Django)-on-AWS-Environment/README.md)
 
 - [ProjectK-002: Terraform Phonebook Application](./ProjectK-002-Terraform-Phonebook-Application-deployed-on-AWS/README.md)
