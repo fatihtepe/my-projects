@@ -8,9 +8,7 @@
 
 - [ProjectW-Flask-05: Handling SQL with Flask Web Application](./ProjectW-flask-Handling-SQL-with-Flask-Web-Application/README.md)
 
-
-
-- [ProjectE-100 : Kittens Carousel Static Website deployed on AWS EC2 using Cloudformation](./ProjectE-100-kittens-carousel-static-website-ec2/README.md)
+- [ProjectV-100 : Kittens Carousel Static Website deployed on AWS EC2 using Cloudformation](./ProjectV-100-kittens-carousel-static-website-ec2/README.md)
 
 - [ProjectF-200 : Roman Numerals Converter Application (Python Flask) deployed on AWS EC2 with Cloudformation](./ProjectF-200-Roman-Numerals-Converter/README.md)
 
