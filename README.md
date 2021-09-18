@@ -18,4 +18,4 @@
 
 - [ProjectR-500 :Capstone Project Blog Page App (Django) on AWS Environment](./ProjectR-500-Capstone-Project-Blog-Page-App-(Django)-on-AWS-Environment/README.md)
 
-- [ProjectK-002: Terraform Phonebook Application](./ProjectK-002-Terraform-Phonebook-Application-deployed-on-AWS/README.md)
+- [ProjectP-002: Terraform Phonebook Application](./ProjectP-002-Terraform-Phonebook-Application-deployed-on-AWS/README.md)
