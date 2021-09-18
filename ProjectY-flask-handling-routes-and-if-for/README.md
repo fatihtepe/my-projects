@@ -1,4 +1,4 @@
-# [ProjectB-Flask-03: Handling Routes and Templates with Flask Web Application and If and For Structure](../README.md)
+# [ProjectY-Flask-03: Handling Routes and Templates with Flask Web Application and If and For Structure](../README.md)
 
 Purpose of this project is to have introductory knowledge of how to handle routes and use html templates within a Flask web application on Amazon Linux 2 EC2 instance.
 
