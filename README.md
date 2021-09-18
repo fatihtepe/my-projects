@@ -20,4 +20,4 @@
 
 - [Project-500 :Capstone Project Blog Page App (Django) on AWS Environment](./Project-500-Capstone-Project-Blog-Page-App-(Django)-on-AWS-Environment/README.md)
 
-updated 082721
+- [Project-600 : Terraform Phonebook Application](./Project-600-Terraform-Phonebook-Application-deployed-on-AWS/README.md)
