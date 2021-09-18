@@ -12,7 +12,7 @@
 
 - [ProjectU-200 : Roman Numerals Converter Application (Python Flask) deployed on AWS EC2 with Cloudformation](./ProjectU-200-Roman-Numerals-Converter/README.md)
 
-- [ProjectG-300 : Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using AWS Cloudformation](./ProjectG-300-Phonebook-Application/README.md)
+- [ProjectT-300 : Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using AWS Cloudformation](./ProjectT-300-Phonebook-Application/README.md)
 
 - [ProjectH-400 : Sample Portfolio Static Website deployed on AWS Cloudfront, S3 and Route 53 using Cloudformation](./ProjectH-400-Sample-Portfolio-static-web-s3-cf/README.md)
 
