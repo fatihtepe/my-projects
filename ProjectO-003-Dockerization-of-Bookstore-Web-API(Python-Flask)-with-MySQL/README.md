@@ -6,7 +6,7 @@ Bookstore Web API Application aims to create a bookstore web service using Docke
 
 ## Problem Statement
 
-![Project_003](003-bookstore-api.png)
+![Project_003](./img/003-bookstore-api.png)
 
 - Your team has started working on a project to create a `Bookstore` Application as Web Service.
 
@@ -122,7 +122,7 @@ Bookstore Web API Application aims to create a bookstore web service using Docke
 
 - Step 3: Prepare scripts to build a Python Flask App Image using Dockerfile and Docker Compose
 
-- Step 4: Prepare a Terrform configuration file to deploy your app on EC2 Instance
+- Step 4: Prepare a Terraform configuration file to deploy your app on EC2 Instance
 
 - Step 5: Push your application into your own public repo on Github
 
@@ -131,6 +131,17 @@ Bookstore Web API Application aims to create a bookstore web service using Docke
 ## Notes
 
 - To showcase your projects REST functions, use `curl` command for each HTTP methods namely, `GET`, `POST`, `PUT`, `DELETE`.
+
+- `http://54.159.195.224`
+![main](./img/main.png)
+- `curl http://54.159.195.224/books` # GET
+![books](./img/books.png)
+
+- `curl -H "Content-Type: application/json" -X PUT -d '{"author":"Franz Kafka","title":"Dava"}' http://54.159.195.224/books/3` #PUT
+![put](./img/put.png)
+
+- `curl -H "Content-Type: application/json" -X DELETE http://54.159.195.224/books/2` #DELETE
+![delete](./img/delete.png)
 
 ## Resources
 
