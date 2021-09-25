@@ -22,4 +22,4 @@
 
 - [ProjectP-002: Terraform Phonebook Application](./ProjectP-002-Terraform-Phonebook-Application-deployed-on-AWS/README.md)
 
-- [ProjectO-003: Dockerization of Bookstore Web API (Python Flask) with MySQL](./ProjectO-003-Dockerization-of-Bookstore-Web-API(Python-Flask)-with-MYSQL/README.md)
+- [ProjectO-003: Dockerization of Bookstore Web API -Python Flask-with MySQL](./ProjectO-003-Dockerization-of-Bookstore-Web-API-Python-Flask-with-MySQL/README.md)
