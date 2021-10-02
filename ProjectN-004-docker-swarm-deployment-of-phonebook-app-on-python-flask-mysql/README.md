@@ -6,7 +6,7 @@ This project aims to deploy the Phonebook Application web application with Docke
 
 ## Problem Statement
 
-![Project_004](project-004.png)
+![Project_004](img/project-004.png)
 
 - Your company has recently started a project that aims to serve as phonebook web application. Your teammates have started to work on the project and developed the UI and backend part of the project and they need your help to deploy the app in development environment.
 
@@ -107,7 +107,7 @@ This project aims to deploy the Phonebook Application web application with Docke
 
 ## Expected Outcome
 
-![Phonebook App Search Page](./search-snapshot.png)
+![Phonebook App Search Page](img/search-snapshot.png)
 
 ### At the end of the project, following topics are to be covered;
 
@@ -162,4 +162,4 @@ This project aims to deploy the Phonebook Application web application with Docke
 
 ## Output
 
-![1](./img/1.png)![2](./img/2.png)![3](./img/3.png)![4](./img/4.png)
+![1](img/1.png)![2](img/2.png)![3](img/3.png)![4](img/4.png)
