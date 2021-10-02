@@ -1,0 +1,23 @@
+Structure
+
+- public github repo
+- docker swarm
+	- 3 manager
+	- 2 worker
+		- connect each other
+		- ec2instance connect cli
+		- IAM policy
+	- leader manager should pull&push image from ECR
+	- ECR full access Policy
+	- managers and workers should pull image from ECR
+- image repo aws ecr
+- main tf
+
+Application
+
+	- Dockerfile
+		- app-server image
+		- required files
+			- phonebook-app.py
+			- requirements.txt
+			- templates
