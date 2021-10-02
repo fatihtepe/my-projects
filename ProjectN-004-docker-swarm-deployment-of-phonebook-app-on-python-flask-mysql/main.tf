@@ -13,8 +13,8 @@ provider "aws" {
 }
 
 locals {
-  github-repo = "https://github.com/fatihtepe/my-projects.git"
-  github-file-url = "https://github.com/fatihtepe/my-projects/blob/main/ProjectN-004-docker-swarm-deployment-of-phonebook-app-on-python-flask-mysql/"
+  github-repo = "https://github.com/fatihtepe/phonebookswarm.git"
+  github-file-url = "https://raw.githubusercontent.com/fatihtepe/phonebookswarm/master/"
 }
 
 data "aws_caller_identity" "current" {}
