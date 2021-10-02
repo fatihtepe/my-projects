@@ -158,3 +158,8 @@ This project aims to deploy the Phonebook Application web application with Docke
 - [Docker Reference Page](https://docs.docker.com/reference/)
 
 - [EC2 Instance Connect](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Connect-using-EC2-Instance-Connect.html)
+
+
+## Output
+
+![1](./img/1.png)![2](./img/2.png)![3](./img/3.png)![4](./img/4.png)
