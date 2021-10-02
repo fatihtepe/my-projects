@@ -13,8 +13,8 @@ provider "aws" {
 }
 
 locals {
-  github-repo = "https://github.com/fatihtepe/phonebookswarm.git"
-  github-file-url = "https://raw.githubusercontent.com/fatihtepe/phonebookswarm/master/"
+  github-repo = "https://github.com/fatihtepe/my-projects/tree/main/phonebookswarm.git"
+  github-file-url = "https://raw.githubusercontent.com/fatihtepe/my-projects/main/phonebookswarm/"
 }
 
 data "aws_caller_identity" "current" {}
