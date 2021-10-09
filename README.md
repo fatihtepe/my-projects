@@ -25,3 +25,5 @@
 - [ProjectO-003: Dockerization of Bookstore Web API -Python Flask-with MySQL](./ProjectO-003-Dockerization-of-Bookstore-Web-API-Python-Flask-with-MySQL/README.md)
 
 - [ProjectN-004: Docker Swarm-Deployment of Phonebook App on Python Flask Mysql](./ProjectN-004-docker-swarm-deployment-of-phonebook-app-on-python-flask-mysql/README.md)
+
+- [ProjectM-005: Jenkins Pipeline for Dockerized Phonebook Application (Python Flask & MySQL) Deployed on Docker Swarm](./ProjectM-005-jenkins-pipeline-for-phonebook-app-on-docker-swarm/README.md)
