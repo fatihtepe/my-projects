@@ -28,4 +28,5 @@
 
 - [ProjectM-005: Jenkins Pipeline for Dockerized Phonebook Application (Python Flask & MySQL) Deployed on Docker Swarm](./ProjectM-005-jenkins-pipeline-for-phonebook-app-on-docker-swarm/README.md)
 
+- [ProjectL-006: Microservice Architecture for Phonebook Web Application (Python Flask) with MySQL using Kubernetes](./ProjectL-006-Microservice-Architecture-for-Phonebook-Web-Application-Python-Flask-with-MySQL-using-Kubernetes/README.md)
 
