@@ -30,3 +30,4 @@
 
 - [ProjectL-006: Microservice Architecture for Phonebook Web Application (Python Flask) with MySQL using Kubernetes](./ProjectL-006-Microservice-Architecture-for-Phonebook-Web-Application-Python-Flask-with-MySQL-using-Kubernetes/README.md)
 
+- [ProjectK-007: Web Page Application (Postgresql-Nodejs-React) deployed on EC2's with Ansible, Docker and Nginx Proxy Server](ProjectK-007-Web-Page-Application-Postgresql-Nodejs-React-deployed-on-EC2-with-Ansible-Docker-and-Nginx-Proxy-Server/README.md)
