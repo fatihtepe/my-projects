@@ -95,7 +95,7 @@ ProjecK-007:
 |----cfg (folder)------------> tf file
 |----img (folder)------------> images
 |----ansible (folder)--------> Ansible-Playbooks
-|----ansible-project(folder)-> Docker files
+|----ansible-project(folder)-> Dockerfiles
 ```
 
 ## Expected Outcome
