@@ -38,10 +38,10 @@ resource "aws_instance" "tf-docker-ec2" {
           curl -s --create-dirs -o "/home/ec2-user/bookstore-api/requirements.txt" -L "$FOLDER"requirements.txt
           curl -s --create-dirs -o "/home/ec2-user/bookstore-api/Dockerfile" -L "$FOLDER"Dockerfile
           curl -s --create-dirs -o "/home/ec2-user/bookstore-api/docker-compose.yml" -L "$FOLDER"docker-compose.yml
-			    cd /home/ec2-user/bookstore-api
-			    docker build -t fatihtepe/bookstoreapi:latest .
-			    docker-compose up -d
-			    EOF
+	  cd /home/ec2-user/bookstore-api
+	  docker build -t fatihtepe/bookstoreapi:latest .
+	  docker-compose up -d
+	  EOF
 }
 
 resource "aws_security_group" "docker-sec" {
