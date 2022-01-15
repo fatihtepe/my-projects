@@ -2,7 +2,7 @@
 
 ## Description:
 
-- This project aims to create two apache servers in AWS with using Terraform to give students the understanding to building infrastructure with Terraform.
+- This project aims to create two apache servers in AWS with using Terraform to get the understanding to building infrastructure with Terraform.
 
 ## Problem Statement:
 
