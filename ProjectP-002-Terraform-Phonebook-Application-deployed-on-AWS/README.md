@@ -162,7 +162,7 @@ thousand                         Warning -> 'Invalid input: Phone number should 
 
 - Git & Github for Version Control System
 
-### At the end of the project, students will be able to;
+### At the end of the project, you will be able to;
 
 - show their coding skills using boolean/math operators, string formatting, if statements and functions within Python.
 
